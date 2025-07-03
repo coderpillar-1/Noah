@@ -1,0 +1,46 @@
+h1{
+font-size: 200 pixels;
+color: blue;
+font-family: 'BitcountGridDouble';
+padding: 50px;
+}
+
+body {
+    background-color: limegreen;
+    margin: 0%;
+}
+
+@font-face {
+    font-family: 'BitcountGridDouble' ;
+    src: url('./BitcountGridDouble-VariableFont_CRSV\,ELSH\,ELXP\,slnt\,wght.ttf');
+}
+
+img {
+    width: 200px; 
+    box-shadow: 20px 20px 20px black;
+
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.line {
+    border: 3px solid rgb(52, 31, 35);
+    padding: 2px;
+}
+
+a:hover{
+    color: darkblue;
+}
+
+nav{
+    background-color: rgb(22, 165, 186);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+     box-shadow: 10px 10px 20px black;
+     
+}
+nav a{
+ text-decoration: none;
+}
